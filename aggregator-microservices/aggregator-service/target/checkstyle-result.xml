@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.19">
+<file name="C:\Users\Sixteen\IdeaProjects\java-design-patterns-master\aggregator-microservices\aggregator-service\src\main\java\com\iluwatar\aggregator\microservices\Aggregator.java">
+</file>
+<file name="C:\Users\Sixteen\IdeaProjects\java-design-patterns-master\aggregator-microservices\aggregator-service\src\main\java\com\iluwatar\aggregator\microservices\App.java">
+</file>
+<file name="C:\Users\Sixteen\IdeaProjects\java-design-patterns-master\aggregator-microservices\aggregator-service\src\main\java\com\iluwatar\aggregator\microservices\Micro0Client.java">
+</file>
+<file name="C:\Users\Sixteen\IdeaProjects\java-design-patterns-master\aggregator-microservices\aggregator-service\src\main\java\com\iluwatar\aggregator\microservices\Micro0ClientImpl.java">
+</file>
+<file name="C:\Users\Sixteen\IdeaProjects\java-design-patterns-master\aggregator-microservices\aggregator-service\src\main\java\com\iluwatar\aggregator\microservices\Micro1Client.java">
+</file>
+<file name="C:\Users\Sixteen\IdeaProjects\java-design-patterns-master\aggregator-microservices\aggregator-service\src\main\java\com\iluwatar\aggregator\microservices\Micro1ClientImpl.java">
+</file>
+<file name="C:\Users\Sixteen\IdeaProjects\java-design-patterns-master\aggregator-microservices\aggregator-service\src\main\java\com\iluwatar\aggregator\microservices\Product.java">
+</file>
+<file name="C:\Users\Sixteen\IdeaProjects\java-design-patterns-master\aggregator-microservices\aggregator-service\src\main\resources\application.properties">
+</file>
+</checkstyle>

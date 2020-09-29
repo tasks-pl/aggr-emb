@@ -1,0 +1,9 @@
+com\iluwatar\aggregator\microservices\Micro1Client.class
+com\iluwatar\aggregator\microservices\Micro0Client.class
+com\iluwatar\aggregator\microservices\Product.class
+com\iluwatar\aggregator\microservices\Micro0ClientImpl.class
+com\iluwatar\aggregator\microservices\App.class
+com\iluwatar\aggregator\microservices\Aggregator$Micro.class
+com\iluwatar\aggregator\microservices\Aggregator$Welcome.class
+com\iluwatar\aggregator\microservices\Aggregator.class
+com\iluwatar\aggregator\microservices\Micro1ClientImpl.class

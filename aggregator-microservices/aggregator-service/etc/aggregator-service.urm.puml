@@ -1,0 +1,59 @@
+@startuml
+package com.iluwatar.aggregator.microservices {
+  class Aggregator {
+    - micro0Client : Micro0Client
+    - micro1Client : Micro1Client
+    + Aggregator()
+    + micros() : Micro[]
+    + weather(query : String) : Product
+    + welcome() : Welcome
+  }
+  ~class Micro {
+    - name : String
+    - status : Integer
+    ~ Micro()
+    + getname() : String
+    + getstatus() : Integer
+    + setMicro(n : String, s : Integer)
+  }
+  ~class Welcome {
+    - home : String
+    ~ Welcome()
+  }
+  class App {
+    + App()
+    + main(args : String[]) {static}
+  }
+  interface Micro0Client {
+    + getWeather(String) : String {abstract}
+  }
+  class Micro0ClientImpl {
+    - LOGGER : Logger {static}
+    + Micro0ClientImpl()
+    + getWeather(query : String) : String
+  }
+  interface Micro1Client {
+    + getWeather(String) : String {abstract}
+  }
+  class Micro1ClientImpl {
+    - LOGGER : Logger {static}
+    + Micro1ClientImpl()
+    + getWeather(query : String) : String
+  }
+  class Product {
+    - service0 : String
+    - service1 : String
+    + Product()
+    + getservice0() : String
+    + getservice1() : String
+    + setservice0(srv0 : String)
+    + setservice1(srv1 : String)
+  }
+}
+Micro --+ Aggregator
+Welcome --+ Aggregator
+Aggregator -->  "-micro0Client" Micro0Client
+Aggregator -->  "-micro1Client" Micro1Client
+Micro0ClientImpl ..|> Micro0Client 
+Micro1ClientImpl ..|> Micro1Client 
+@enduml
